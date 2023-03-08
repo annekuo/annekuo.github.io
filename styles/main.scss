@@ -1,0 +1,57 @@
+@import "./components/mixins.scss";
+@import "./variables.scss";
+@import "./components/base.scss";
+@import "./components/animations.scss";
+@import "./components/nav.scss";
+@import "./components/footer.scss";
+@import "./home.scss";
+
+
+* {
+    font-family: $text-sans;
+}
+
+body {
+    background-color: $bg-color;
+  }
+
+H1 {
+    font: {
+        size: 48px;
+        weight: 400;
+    }
+}
+
+H2 {
+    font: {
+        size: 32px;
+    }
+    color: #3e3e3e;
+}
+
+H3 {
+    font: {
+        size: 22px;
+        weight: 400;
+    }
+}
+
+H4 {
+    font: {
+        size: 18px;
+        weight: 600;
+    }
+}
+
+.green {
+    color: $primary-color;
+}
+
+.work-tag {
+    color: $primary-color;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}

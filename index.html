@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Anne Kuo Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/styles/assets/favicon.ico">
+    <link rel="stylesheet" href="./styles/main.scss" />
+  </head>
+  <body>
+
+    <nav class="nav">
+        <div class="nav-left">
+            <a href="index.html"><img src="/styles/assets/AnneKuo-logo.svg"></a>
+        </div>
+        <div class="nav-right">
+            <a class="nav-link" href="index.html">Projects</a>
+            <a class="nav-link" href="writings.html">Writings</a>
+            <a class="nav-link" href="about.html">About</a>
+        </div>
+    </nav>
+
+    <section id="intro">
+        <H1>
+            Hi, Anne here. I am a UX designer based in NYC. 
+            I’m passionate about creating <span class="green">smooth & pleasing</span> experiences!
+        </H1>
+    </section>
+    <section id="works">
+        <div class="work-row">
+            <div class="work-card">
+                <div class="card-img-wrap">
+                    <img src="styles/assets/cover-amzmusic.png">
+                </div>
+                <p class="work-tag">UX Research / UI Design</p>
+                <h3>Amazon Music with Emotions</h3>
+            </div>
+            <div class="work-card">
+                <div class="card-img-wrap">
+                    <img src="styles/assets/cover-indochat.png">
+                </div>
+                <p class="work-tag">UX Research / UI Design</p>
+                <h3>IndoChat Interactive Map</h3>
+            </div>
+        </div>
+
+        <div class="work-row">
+
+            <div class="work-card">
+                <div class="card-img-wrap">
+                    <img class="card-img" src="styles/assets/cover-thsr.png">
+                </div>
+                <p class="work-tag">UI Redesign</p>
+                <h3>THSR Booking App Redesign</h3>
+            </div>
+            <div class="work-card">
+                <div class="card-img-wrap">
+                    <img src="styles/assets/cover-imyan.png">
+                </div>
+                <p class="work-tag">Logo Design</p>
+                <h3>IMYAN</h3>
+            </div>
+        </div>
+    </section>
+<!--    <section id="experience">
+        <div>
+            <H2>My Experience</H2>
+        </div>
+        <div class="experience">
+            <div class="exp">
+                <h4>Pratt Institute</h4>
+                <p>Information Experience Design</p>
+                <p>2022-2024</p>
+                <p>New York City, NY</p>
+            </div>
+            <div class="exp">
+                <h4>QTCOMM</h4>
+                <p>UI/UX Designer</p>
+                <p>2021-2022</p>
+                <p>Taipei, Taiwan</p>
+            </div>
+        </div>
+        <p class="text-button">About Me</p>
+    </section> -->
+
+    <footer>
+        <div class="footer-right">
+            <img src="styles/assets/A-logo.svg">
+            <div>
+                <H4>Let's Work Together!</H4>
+                <p class="email">Find me at <a href="mailto:annekuo.tw@gmail.com" class="underline">annekuo.tw@gmail.com</a></p>
+            </div>
+        </div>
+        <div>
+            <div class="icon-link-container">
+                <a href="https://www.linkedin.com/in/anne-kuo/" target="_blank"><img src="styles/assets/icon-linkedin.svg"></a>
+                <a href="https://www.facebook.com/annekuo.tw" target="_blank"><img src="styles/assets/icon-facebook.svg"></a>
+            </div>
+            <p class="copyright">Anne Kuo 2023 © All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll(".nav-link").forEach((link) => {
+            if (link.href === window.location.href) {
+                link.classList.add("active-link");
+                link.setAttribute("aria-current", "page");
+            }
+        });
+    </script>
+
+  </body>
+</html>
