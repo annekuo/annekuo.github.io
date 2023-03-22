@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Mynerve&display=swap");
+/*Text*/
+/*Color*/
+/*Layout*/
+.home {
+  background-image: url("/bg-home.fc9d26be.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#intro {
+  height: calc(75vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 64px;
+}
+#intro h1 {
+  margin-bottom: 24px;
+}
+
+#works {
+  width: 100vw;
+  padding: 32px 16px;
+}
+
+.work-row {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.work-card {
+  width: calc(50% - 32px);
+  padding: 0 16px;
+}
+
+#indochat-color {
+  background-color: #f07b7b;
+}
+
+.card-img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 16px;
+  margin-bottom: 12px;
+}
+.card-img-wrap img {
+  display: block;
+  max-width: 100%;
+}
+
+.work-tag {
+  margin-bottom: 4px;
+}
+
+#experience {
+  padding: 16px 64px;
+}
+#experience H2 {
+  margin-bottom: 20px;
+}
+
+.experience {
+  display: flex;
+  gap: 32px;
+}
+
+/*# sourceMappingURL=/home.1b7bd86f.css.map */
