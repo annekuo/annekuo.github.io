@@ -140,13 +140,14 @@ body {
 }
 
 #navbar {
-  background-color: rgba(249, 249, 249, 0.8);
+  background-color: rgba(249, 249, 249, 0.5);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  backdrop-filter: blur(8px);
 }
 
 #navbar.show {
@@ -163,30 +164,36 @@ body {
 }
 
 H1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 400;
 }
 
 H2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
   color: #6a6a6a;
 }
 
+.h2 {
+  font-size: 1.625rem;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
 H3 {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 400;
   color: #212121;
 }
 
 H4 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: #212121;
 }
 
 .h4-handwrite {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Mynerve", sans-serif;
 }
 
@@ -215,11 +222,20 @@ H4 {
   text-underline-offset: 6px;
 }
 
-.fourpx {
-  margin-bottom: 4px;
+/* Project Layout */
+.cover-container {
+  height: 560px;
+  width: 100vw;
+  overflow: hidden;
 }
 
-/* Project Layout */
+.cover {
+  height: 100%;
+  width: 100vw;
+  object-fit: cover;
+  object-position: 0;
+}
+
 .project-intro {
   display: flex;
   justify-content: center;
@@ -250,7 +266,7 @@ H4 {
 .project-text {
   color: #212121;
   width: 720px;
-  line-height: 1.5;
+  line-height: 1.4;
   font-size: 1.125rem;
 }
 .project-text img {
@@ -266,6 +282,12 @@ H4 {
 .project-text h4 {
   font-weight: 400;
   padding: 24px 0 12px 0;
+}
+.project-text ul, .project-text ol {
+  padding: 24px 0 24px 36px;
+}
+.project-text ul li, .project-text ol li {
+  line-height: 1.5;
 }
 
 .project-3grid {
@@ -370,6 +392,32 @@ H4 {
   align-items: center;
   font-size: 1.5rem;
   padding-top: 24px;
+}
+
+.summary {
+  padding: 48px;
+  border-radius: 16px;
+}
+
+/* spacing modifiers */
+.fourpx {
+  margin-bottom: 4px;
+}
+
+.twelvepx {
+  margin-bottom: 12px;
+}
+
+.zeropd {
+  margin-top: 0;
+  padding: 0;
+}
+
+/* responsive */
+@media (max-width: 720px) {
+  h1 {
+    font-size: 2.25rem;
+  }
 }
 
 /*# sourceMappingURL=/main.48b3db1d.css.map */

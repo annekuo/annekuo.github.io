@@ -16,11 +16,16 @@ h4 {
 
 .cover-container {
   background-color: #E97676;
+  height: 574px;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .cover {
-  height: 574px;
-  width: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0;
 }
 
 .threegrid-box {

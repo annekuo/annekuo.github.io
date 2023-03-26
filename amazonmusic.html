@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Anne Kuo is a UX Designer currently studying at Pratt Institute.">
+    <title>Anne Kuo Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.e9e5a02a.ico">
+    <link rel="stylesheet" href="/main.48b3db1d.css">
+    <link rel="stylesheet" href="/amzmusic.89445022.css">
+  <script src="/main.48b3db1d.js"></script><script src="/amzmusic.89445022.js"></script></head>
+
+  <body>
+    <nav class="nav" id="navbar">
+        <div class="nav-left">
+            <a href="/index.html"><img src="/AnneKuo-logo.ac0a0b7a.svg"></a>
+        </div>
+        <div class="nav-right">
+            <a class="nav-link" href="/index.html">Projects</a>
+            <!-- <a class="nav-link" href="writings.html">Writings</a> -->
+            <a class="nav-link" href="/about.html">About</a>
+        </div>
+    </nav>
+
+    <div id="content">
+        <div class="cover-container">
+            <img src="/cover-title.08d312cd.png" class="cover-title">
+            <img src="/cover-img.0a4e4e60.png" class="cover-img">
+        </div>
+        <div class="project-intro">
+            <div>
+                <p class="intro-title">Role</p>
+                <p class="intro-content">UX Designer</p>
+            </div>
+            <div>
+                <p class="intro-title">Team</p>
+                <p class="intro-content">3 UX Designers - Esther, Becky, Jeany<br>
+                    1 Design Mentor from Amazon Music - Christina
+                </p>
+            </div>
+            <div>
+                <p class="intro-title">Duration</p>
+                <p class="intro-content">
+                    Feb 2023<br>(1 Month)
+                </p>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="project-text summary">
+                <p class="h2">Project Summary</p>
+                <p class="twelvepx">This project was a submission to the 2023 Product Design Student Challenge hosted by Amazon Music and Pratt iSchool. In our submission, we explored possible features in the future for a music streaming app catered towards Gen-Z listeners.</p>
+                <p>Drawing from our survey (57 respondants) and interviews (8 interviewees), we synthesized three insights of our users' needs:</p>
+                <ul>
+                    <li>Emotional & Environmental Detection</li>
+                    <li>Personalization</li>
+                    <li>Social Interactions</li>
+                </ul>
+                <p>Combining AI and the collection user data, We were able to develop 4 features that provides personalized music streaming experience that values the emotions of our users. These features include:</p>
+                <ol>
+                    <li>Emotion detection connected with AI generated playlist</li>
+                    <li>Now-playing background that reflects user emotion</li>
+                    <li>Personal and World Emotion Trend</li>
+                    <li>Built-in social tab</li>
+                </ol>
+                <p>Looking back onto this project, we were trying to fulfill too many different needs and did not dive deeper into one idea. If I could do this again, I would focus more on 1-2 insights, develop prototype and conduct a usability test to refine the features.</p>
+            </div>
+        </div>
+
+        <div class="middle">
+            <div class="project-text">
+                <h2>Research</h2>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <footer>
+        <div class="footer-right">
+            <img src="/A-logo.7ceee0ed.svg">
+            <div>
+                <p class="h4-handwrite white fourpx">Let's Work Together!</p>
+                <p class="email">Find me at <a href="mailto:annekuo.tw@gmail.com" class="underline">annekuo.tw@gmail.com</a></p>
+            </div>
+        </div>
+        <div>
+            <div class="icon-link-container">
+                <a href="https://www.linkedin.com/in/anne-kuo/" target="_blank"><img src="/linkedin.128be9e1.svg"></a>
+                <a href="https://www.facebook.com/annekuo.tw" target="_blank"><img src="/facebook.8c0afafb.svg"></a>
+            </div>
+            <p class="copyright">Anne Kuo 2023 © All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>//Navbar Link
+document.querySelectorAll(".nav-link").forEach(function (link) {
+  if (link.href === window.location.href) {
+    link.classList.add("active-link");
+    link.setAttribute("aria-current", "page");
+  }
+});
+
+//Navbar hide & show
+var navbar = document.getElementById('navbar');
+var prevScrollPos = window.pageYOffset;
+window.addEventListener('scroll', function () {
+  var currentScrollPos = window.pageYOffset;
+  if (currentScrollPos > prevScrollPos) {
+    navbar.classList.add('hidden');
+  } else {
+    navbar.classList.remove('hidden');
+    navbar.classList.add('show');
+  }
+  prevScrollPos = currentScrollPos;
+});</script>
+
+  </body>
+</html>

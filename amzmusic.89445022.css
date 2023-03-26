@@ -1,0 +1,51 @@
+#content {
+  margin-top: 0px;
+}
+
+#navbar {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-right a, .nav-right a:visited {
+  color: #ffffff;
+}
+
+body {
+  background-color: #212121;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.project-text {
+  color: #f0f0f0;
+}
+
+h2, .h2 {
+  color: #25d1da;
+}
+
+.summary {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.cover-container {
+  background: radial-gradient(94.17% 338.61% at 9.35% 35.83%, #B3F9FE 0%, #5ADAE5 36.77%, #61A9EE 55.81%, #6C4CF7 81.46%, #633BF5 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.cover-title {
+  height: 160px;
+  padding-right: 5vw;
+}
+
+.cover-img {
+  height: 95%;
+  width: auto;
+}
+
+/*# sourceMappingURL=/amzmusic.89445022.css.map */
