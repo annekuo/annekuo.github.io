@@ -399,6 +399,29 @@ H4 {
   border-radius: 16px;
 }
 
+.feature {
+  width: 720px;
+  padding: 48px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 32px;
+}
+.feature video {
+  height: 480px;
+  border-radius: 44px;
+}
+
+.feature-text-box {
+  display: flex;
+  align-items: center;
+}
+
+.feature-video-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* spacing modifiers */
 .fourpx {
   margin-bottom: 4px;
