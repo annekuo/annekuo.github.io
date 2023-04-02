@@ -14,7 +14,7 @@
 
     <nav class="nav" id="navbar">
         <div class="nav-left">
-            <a href="/index.html"><img src="/AnneKuo-logo.ac0a0b7a.svg"></a>
+            <a href="/index.html"><img src="/anne-logo.0c7eb72c.svg"></a>
         </div>
         <div class="nav-right">
             <a class="nav-link" href="/index.html">Projects</a>
@@ -263,44 +263,21 @@
     </div>
 </div>
 
-    <footer>
-        <div class="footer-right">
-            <img src="/A-logo.7ceee0ed.svg">
-            <div>
-                <p class="h4-handwrite white fourpx">Let's Work Together!</p>
-                <p class="email">Find me at <a href="mailto:annekuo.tw@gmail.com" class="underline">annekuo.tw@gmail.com</a></p>
-            </div>
+<footer>
+    <div class="footer-right">
+            <p class="h4-handwrite white fourpx">Let's Work Together!</p>
+            <p class="email">Find me at <a href="mailto:annekuo.tw@gmail.com" class="underline">annekuo.tw@gmail.com</a></p>
+    </div>
+    <div>
+        <div class="icon-link-container">
+            <a href="https://www.linkedin.com/in/anne-kuo/" target="_blank"><img src="/linkedin.128be9e1.svg"></a>
+            <a href="https://www.facebook.com/annekuo.tw" target="_blank"><img src="/facebook.8c0afafb.svg"></a>
         </div>
-        <div>
-            <div class="icon-link-container">
-                <a href="https://www.linkedin.com/in/anne-kuo/" target="_blank"><img src="/linkedin.128be9e1.svg"></a>
-                <a href="https://www.facebook.com/annekuo.tw" target="_blank"><img src="/facebook.8c0afafb.svg"></a>
-            </div>
-            <p class="copyright">Anne Kuo 2023 © All rights reserved.</p>
-        </div>
-    </footer>
+        <p class="copyright">Anne Kuo 2023 © All rights reserved.</p>
+    </div>
+</footer>
 
-    <script>//Navbar Link
-document.querySelectorAll(".nav-link").forEach(function (link) {
-  if (link.href === window.location.href) {
-    link.classList.add("active-link");
-    link.setAttribute("aria-current", "page");
-  }
-});
-
-//Navbar hide & show
-var navbar = document.getElementById('navbar');
-var prevScrollPos = window.pageYOffset;
-window.addEventListener('scroll', function () {
-  var currentScrollPos = window.pageYOffset;
-  if (currentScrollPos > prevScrollPos) {
-    navbar.classList.add('hidden');
-  } else {
-    navbar.classList.remove('hidden');
-    navbar.classList.add('show');
-  }
-  prevScrollPos = currentScrollPos;
-});</script>
+<script src="/custom.7785c346.js"></script>
 
   </body>
 </html>
