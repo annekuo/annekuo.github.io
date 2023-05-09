@@ -4,6 +4,8 @@
 /*Layout*/
 .cover-container {
   background: #F6FAFF;
+  background-image: url("/background.5f81b760.png");
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,6 +75,30 @@ li {
 .big-numbers {
   color: #1942F5;
   font-weight: 600;
+}
+
+.primary {
+  display: flex;
+  height: 46px;
+  width: 240px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  padding: 12px 20px;
+  background-color: #1942F5;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.caption {
+  color: #656f96;
+}
+
+.project-lgimg {
+  background-color: #F6FAFF;
 }
 
 /*# sourceMappingURL=/airpals.602980bf.css.map */
