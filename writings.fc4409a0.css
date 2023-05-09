@@ -1,0 +1,10 @@
+.flex {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+/*# sourceMappingURL=/writings.fc4409a0.css.map */

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*Text*/
+/*Color*/
+/*Layout*/
+.cover-container {
+  background: #F6FAFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.cover img {
+  position: absolute;
+  z-index: -1;
+}
+
+.cover-title {
+  height: 144px;
+  padding-right: 20vw;
+}
+
+.cover-img {
+  height: 240px;
+  width: auto;
+}
+
+.project-intro {
+  color: #202F68;
+}
+
+.project-text {
+  color: #202F68;
+}
+
+.summary {
+  background-color: #F6FAFF;
+}
+
+h3 {
+  color: #202F68;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+h2 {
+  color: #202F68;
+}
+
+.project-text h4 {
+  font-weight: 600;
+  color: #202F68;
+  padding: 4px 0 0 0;
+}
+
+ol, ul {
+  padding: 4px 0 0 36px !important;
+}
+
+li {
+  padding-bottom: 4px;
+}
+
+.block {
+  background-color: #F6FAFF;
+}
+
+.threegrid-box {
+  background-color: #F6FAFF;
+  font-weight: 500;
+}
+
+.big-numbers {
+  color: #1942F5;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=/airpals.602980bf.css.map */

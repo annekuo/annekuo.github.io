@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles/writings.scss"],"names":[],"mappings":"AAAA,MACI,WAAA,CACA,YAAA,CACA,sBAAA,CACA,kBAAA,CACA,qBAAA,CACA","file":"writings.44992860.css","sourceRoot":"..","sourcesContent":[".flex {\n    height: 80vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n    row-gap: 16px;\n}"]}

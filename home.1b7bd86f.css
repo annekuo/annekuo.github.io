@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Mynerve&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*Text*/
 /*Color*/
 /*Layout*/
 .home {
-  background-image: url("/bg-home.fc9d26be.png");
+  /* background-image: url("./assets/bg-home.png"); */
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,6 +19,9 @@
 }
 #intro h1 {
   margin-bottom: 24px;
+}
+#intro h2, #intro a {
+  font-family: "Anonymous Pro", sans-serif;
 }
 
 #works {

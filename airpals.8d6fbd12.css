@@ -1,0 +1,24 @@
+.cover-container {
+  background: #F6FAFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.cover img {
+  position: absolute;
+  z-index: -1;
+}
+
+.cover-title {
+  height: 144px;
+  padding-right: 20vw;
+}
+
+.cover-img {
+  height: 240px;
+  width: auto;
+}
+
+/*# sourceMappingURL=/airpals.8d6fbd12.css.map */

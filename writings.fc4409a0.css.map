@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles/writings.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA;EACA","file":"writings.fc4409a0.css","sourceRoot":"..","sourcesContent":[".flex {\n    height: 80vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n    row-gap: 16px;\n}"]}

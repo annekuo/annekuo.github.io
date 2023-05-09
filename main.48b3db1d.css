@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Mynerve&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*Text*/
 /*Color*/
 /*Layout*/
@@ -149,11 +149,11 @@ footer H4 {
 }
 
 * {
-  font-family: "Mulish", "Inter", "Helvetica", sans-serif;
+  font-family: "Raleway", "Helvetica", sans-serif;
 }
 
 body {
-  background-color: #F9F9F9;
+  background-color: #ffffff;
 }
 
 #content {
@@ -191,11 +191,11 @@ H4 {
 
 .h4-handwrite {
   font-size: 1.25rem;
-  font-family: "Mynerve", sans-serif;
+  font-family: "Anonymous Pro", sans-serif, sans-serif;
 }
 
 .handwriting {
-  font-family: "Mynerve", sans-serif;
+  font-family: "Anonymous Pro", sans-serif;
 }
 
 .green {
@@ -263,7 +263,7 @@ H4 {
 .project-text {
   color: #212121;
   width: 720px;
-  line-height: 1.4;
+  line-height: 1.5;
   font-size: 1.125rem;
 }
 .project-text img {
@@ -300,8 +300,6 @@ H4 {
   border-radius: 16px;
 }
 .threegrid-box p {
-  color: #212121;
-  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -393,6 +391,12 @@ H4 {
 
 .summary {
   padding: 48px;
+  border-radius: 16px;
+}
+
+.block {
+  margin: 16px 0;
+  padding: 32px;
   border-radius: 16px;
 }
 
