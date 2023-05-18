@@ -11,17 +11,17 @@
 }
 
 #intro {
-  height: calc(75vh - 80px);
+  height: calc(60vh - 80px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 64px;
+  padding: 0 84px;
 }
 #intro h1 {
   margin-bottom: 24px;
 }
-#intro h2, #intro a {
-  font-family: "Anonymous Pro", sans-serif;
+#intro a {
+  color: #0A9BA5;
 }
 
 #works {
@@ -36,8 +36,11 @@
 }
 
 .work-card {
-  width: calc(50% - 32px);
-  padding: 0 16px;
+  width: calc(50% - 56px);
+  padding: 0 20px;
+}
+.work-card h3 {
+  font-weight: 500;
 }
 
 #indochat-color {
@@ -48,6 +51,12 @@
   background-color: #14191A;
 }
 
+#airpals {
+  background-color: #F6FAFF;
+  background-image: url("/background.5f81b760.png");
+  background-size: cover;
+}
+
 .card-img-wrap {
   display: flex;
   justify-content: center;
@@ -56,7 +65,7 @@
   height: auto;
   overflow: hidden;
   border-radius: 16px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 .card-img-wrap img {
   display: block;
@@ -64,7 +73,7 @@
 }
 
 .work-tag {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 #experience {

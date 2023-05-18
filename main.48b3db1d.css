@@ -118,11 +118,10 @@ a {
 
 footer {
   display: flex;
-  justify-content: space-between;
-  background-color: #489196;
-  padding: 40px 64px;
-  color: #ffffff;
-  margin-top: 32px;
+  justify-content: center;
+  padding: 0 64px;
+  color: #489196;
+  margin: 32px 0;
 }
 footer H4 {
   margin-bottom: 12px;
@@ -165,10 +164,15 @@ H1 {
   font-weight: 400;
 }
 
-H2 {
+.subtitle {
   font-size: 1.5rem;
   font-weight: 300;
   color: #6a6a6a;
+}
+
+H2 {
+  font-size: 1.625rem;
+  font-weight: 500;
 }
 
 .h2 {
